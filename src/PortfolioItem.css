@@ -15,10 +15,11 @@
 }
 
 .description {
+
   color: white;
   position: absolute;
   background: #6a789b;
-  background-color: rgba(106, 120, 155, 0.4);
+  background-color: rgba(106, 120, 155, 0.6);
   width: 50rem;
   letter-spacing: 0.2rem;
   padding: 1rem;
@@ -29,7 +30,7 @@
 
 #description1 {
   top: 35%;
-  right: 50%;
+  left: 2%;
 }
 
 #description2 {

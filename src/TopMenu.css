@@ -33,3 +33,7 @@ li {
   font-size: 3rem;
   padding-right: 1.8rem;
 }
+
+li:hover {
+  cursor: pointer;
+}

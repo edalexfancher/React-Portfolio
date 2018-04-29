@@ -1,0 +1,55 @@
+.Message-Wrapper {
+  z-index: 5;
+  position: fixed;
+  right: 55.6rem;
+  top: 9rem;
+  color: white;
+  width: 30rem;
+  background-color: rgba(106, 120, 155, 0.94);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1.7rem;
+}
+
+input {
+  font-family: Helvetica;
+  font-size: 1.35rem;
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+}
+
+textarea {
+  font-family: Helvetica;
+  font-size: 1.35rem;
+  border: none;
+  color: black;
+  position: relative;
+  width: 90%;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  resize: none;
+  margin-bottom: 1rem;
+}
+
+button {
+  border: 1px solid white;
+  background-color: rgb(106, 120, 155);
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  width: 20%;
+  margin: 0 auto;
+  display: block;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+form {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+}
