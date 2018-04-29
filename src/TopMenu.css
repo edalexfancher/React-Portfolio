@@ -37,3 +37,18 @@ li {
 li:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 850px) {
+    li {
+      font-size: 1.8rem;
+    }
+
+    ul.dropdown {
+      right: 0;
+      top: 2rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+}

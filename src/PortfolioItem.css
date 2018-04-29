@@ -19,7 +19,7 @@
   color: white;
   position: absolute;
   background: #6a789b;
-  background-color: rgba(106, 120, 155, 0.6);
+  background-color: rgba(106, 120, 155, 0.75);
   width: 50rem;
   letter-spacing: 0.2rem;
   padding: 1rem;
@@ -37,3 +37,28 @@
   top: 68%;
   left: 2%;
 }
+
+@media screen and (max-width: 850px) {
+    .description {
+        width: 20rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    #description2, #description1 {
+      left: 20%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .description {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    #description2, #description1 {
+      left: 0;
+    }
+}
+

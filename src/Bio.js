@@ -3,7 +3,6 @@ import './Bio.css';
 import './HoverLabel.css';
 import { TechGrid } from './TechGrid';
 import * as FontAwesome from 'react-icons/lib/fa';
-import { MenuButton } from './MenuButton';
 
 export class Bio extends React.Component {
   render() {
