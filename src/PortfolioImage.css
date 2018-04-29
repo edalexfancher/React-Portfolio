@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 850px) {
     .PortfolioImage img {
-      width: 110%;
+      width: 100%;
     }
 }

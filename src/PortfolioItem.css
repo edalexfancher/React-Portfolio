@@ -42,7 +42,12 @@
     .description {
         width: 20rem;
         font-size: 1.4rem;
-        line-height: 2rem;
+        line-height: 1.8rem;
+    }
+
+    #link {
+      left: 20%;
+      width: 20rem;
     }
 
     #description2, #description1 {
@@ -52,13 +57,20 @@
 
 @media screen and (max-width: 540px) {
     .description {
-        width: 100%;
-        font-size: 1rem;
-        line-height: 2rem;
+      width: 80%;
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
+
+    #link {
+      width: 80%;
+      left: 2rem;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
     #description2, #description1 {
-      left: 0;
+      left: 2rem;
     }
 }
 
