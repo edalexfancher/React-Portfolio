@@ -5,7 +5,7 @@
 
 #link {
   color: white;
-  position: fixed;
+  position: absolute;
   top: 10rem;
   left: 2%;
   text-decoration: none;
@@ -18,7 +18,7 @@
   color: white;
   position: absolute;
   background: #6a789b;
-  background-color: rgba(106, 120, 155, 0.75);
+  background-color: rgba(106, 120, 155, 0.4);
   width: 50rem;
   letter-spacing: 0.2rem;
   padding: 1rem;
@@ -29,5 +29,10 @@
 
 #description1 {
   top: 35%;
-  right: 3.5rem;
+  right: 50%;
+}
+
+#description2 {
+  top: 68%;
+  left: 2%;
 }

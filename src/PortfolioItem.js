@@ -23,6 +23,9 @@ export class PortfolioItem extends React.Component {
         <p className="description" id="description1">
           {this.props.description1}
         </p>
+        <p className="description" id="description2">
+          {this.props.description2}
+        </p>
         <div className="ImageArea">
           {this.imageLoop()}
         </div>

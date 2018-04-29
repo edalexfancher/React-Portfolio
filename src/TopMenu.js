@@ -24,7 +24,8 @@ export class TopMenu extends React.Component {
           <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
           <span onClick={this.bioClick.bind(this)}><MenuButton name="Bio" icon={<FontAwesome.FaAngleDown/>} onClick={this.bioClick.bind(this)}/></span>
         </ul>
-        <Bio />
+        <Bio modal="web"/>
+        <Bio modal="resume"/>
         </div>
         )
     } else {

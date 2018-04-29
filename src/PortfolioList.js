@@ -3,11 +3,11 @@ import { PortfolioItem } from './PortfolioItem';
 import './PortfolioList.css';
 
 const edmDescription1 =
-  "EDM Lounge is a promotion platform & blog launched by me in 2012."
-  + " We have officially covered press at events including: "
-  + "Tomorrowland, Ultra Music Festival, Electric Daisy Carnival, & more.";
+  "EDM Lounge is an online promotion platform launched by me in 2012."
+  + " It has covered press officially at events including: "
+  + "Tomorrowland, Ultra Music Festival, and Movement Detroit.";
 const edmDescription2 =
-  "We have hosted our own parties and promoted for world-class venues including Output Brooklyn, " +
+  "The platform has hosted private parties in New York City, and promoted for world-class venues including: Output, " +
   "Pacha NYC, Webster Hall, and Amnesia Ibiza.";
 
 export class PortfolioList extends React.Component {
