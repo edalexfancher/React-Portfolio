@@ -1,4 +1,4 @@
-ul.dropdown                         { position: relative; top: 40%; margin: 0 auto; right: 2%; vertical-align: middle; float: right;
+ul.dropdown                         { position: fixed; top: 3rem; margin: 0 auto; right: 5rem; vertical-align: middle; 
   -right: 2.7rem;}
 ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; }
 ul.dropdown a:hover               { color: white; }
@@ -31,4 +31,5 @@ li {
   display: inline;
   list-style: none;
   font-size: 3rem;
+  padding-right: 1.8rem;
 }

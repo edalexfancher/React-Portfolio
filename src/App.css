@@ -10,7 +10,7 @@
 .App-header {
   z-index: 3;
   background: #6a789b;
-  /*background: rgba(106, 120, 155, 0.85);*/
+ /* background: rgba(106, 120, 155, 0.85);*/
   position: fixed;
   top: 0;
   width: 100%;

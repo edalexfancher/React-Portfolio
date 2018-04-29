@@ -1,16 +1,26 @@
 .Bio {
   z-index: 5;
   position: fixed;
-  height: 100%;
-  top: 8rem;
-  bottom: 4rem;
-  right: 0;
+  right: 3.5rem;
+  top: 9rem;
+  height: 55rem;
   color: white;
   width: 18rem;
   background-color: rgba(106, 120, 155, 0.85);
-  padding: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1.7rem;
 }
 
-a {
+.Bio h3 {
+  font-size: 1.8rem;
+}
+
+.Bio a {
   color: white;
+  font-size: 1rem;
+}
+
+#Bio-Icon a {
+  font-size: 3rem;
 }

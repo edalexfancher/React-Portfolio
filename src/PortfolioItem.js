@@ -20,6 +20,9 @@ export class PortfolioItem extends React.Component {
         <a id="link" href={this.props.link}>
           <h1>{this.props.title}</h1>
         </a>
+        <p className="description" id="description1">
+          {this.props.description1}
+        </p>
         <div className="ImageArea">
           {this.imageLoop()}
         </div>
