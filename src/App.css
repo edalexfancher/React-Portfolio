@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  z-index: 3;
+  background: #6a789b;
+  /*background: rgba(106, 120, 155, 0.85);*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+ /* linear-gradient270deg, #a5a5a5, */
+  color: white;
+  height: 8rem;
+}
+
+.Eddie-Alex {
+  font-size: 4.65rem;
+  position: relative;
+  float: left;
+  left: 2%;
+}

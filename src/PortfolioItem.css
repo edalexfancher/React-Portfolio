@@ -1,0 +1,11 @@
+.PortfolioItem {
+  width: 100%;
+}
+
+#link {
+  color: white;
+  position: relative;
+  top: 10rem;
+  text-decoration: none;
+  background: black;
+}

@@ -1,0 +1,16 @@
+.Bio {
+  z-index: 5;
+  position: fixed;
+  height: 100%;
+  top: 8rem;
+  bottom: 4rem;
+  right: 0;
+  color: white;
+  width: 18rem;
+  background-color: rgba(106, 120, 155, 0.85);
+  padding: 5rem;
+}
+
+a {
+  color: white;
+}
