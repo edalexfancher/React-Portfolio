@@ -16,8 +16,8 @@
   width: 100%;
  /* linear-gradient270deg, #a5a5a5, */
   color: white;
-  height: 10%;
   min-height: 6rem;
+  max-height: 10%;
 }
 
 .Eddie-Alex {

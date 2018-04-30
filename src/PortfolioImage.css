@@ -1,5 +1,6 @@
 .PortfolioImage {
   max-width: 100%;
+  position: relative;
 }
 
 .PortfolioImage img {
@@ -7,8 +8,19 @@
   margin-bottom: -1rem;
 }
 
-/*@media screen and (max-width: 850px) {
-    .PortfolioImage img {
-      width: 100%;
-    }
-}*/
+.description {
+  color: white;
+  position: absolute;
+  right: 2rem;
+  background: #6a789b;
+  background-color: rgba(106, 120, 155, 0.95);
+  max-width: 30rem;
+  max-height: 30rem;
+  height: auto;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 400;
+  top: 20%;
+}

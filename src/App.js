@@ -12,7 +12,6 @@ export class App extends Component {
           <h1 className="Eddie-Alex">Eddie Alex</h1>
           <TopMenu/>
         </header>
-     
         <PortfolioList />
         <footer>
           <Footer />
