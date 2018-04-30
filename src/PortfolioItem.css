@@ -6,7 +6,7 @@
 #link {
   color: white;
   position: absolute;
-  top: 10rem;
+  top: 8rem;
   left: 2%;
   text-decoration: none;
   background: #6a789b;
@@ -15,11 +15,10 @@
 }
 
 .description {
-
   color: white;
   position: absolute;
   background: #6a789b;
-  background-color: rgba(106, 120, 155, 0.75);
+  background-color: rgba(106, 120, 155, 0.85);
   width: 50rem;
   letter-spacing: 0.2rem;
   padding: 1rem;
@@ -28,17 +27,39 @@
   font-weight: 400;
 }
 
-#description1 {
+.description1 {
   top: 35%;
   left: 2%;
 }
 
-#description2 {
+.description2 {
   top: 68%;
   left: 2%;
 }
 
-@media screen and (max-width: 850px) {
+#clock1, #clock2 {
+/*  background: black;
+  background: rgba(0, 0, 0, 0.8);*/
+}
+
+#clock1 {
+  top: 23%;
+}
+
+#clock2 {
+  top: 70%;
+}
+
+/*#clock h1 {
+  top: 32%;
+}
+*/
+/*.description2:nth-child(2) {
+  background: black;
+  top: 37%;
+}*/
+
+/*@media screen and (max-width: 850px) {
     .description {
         width: 20rem;
         font-size: 1.4rem;
@@ -73,4 +94,4 @@
       left: 2rem;
     }
 }
-
+*/

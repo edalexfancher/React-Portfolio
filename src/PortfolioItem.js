@@ -17,13 +17,13 @@ export class PortfolioItem extends React.Component {
   render() {
     return (
       <div className="PortfolioItem">
-        <a id="link" href={this.props.link}>
+        <a id="link" className={this.props.id} href={this.props.link}>
           <h1>{this.props.title}</h1>
         </a>
-        <p className="description" id="description1">
+        <p className="description description1" id={this.props.id + "1"}>
           {this.props.description1}
         </p>
-        <p className="description" id="description2">
+        <p className="description description2" id={this.props.id + "2"}>
           {this.props.description2}
         </p>
         <div className="ImageArea">

@@ -24,11 +24,11 @@ export class Bio extends React.Component {
           <p><em>Web Immersive Program</em></p>
           <div className="Bio-Paragraph">
             <h3>Bio</h3>
-            <div id="paragraph"><p>I am a passionate coder with a love for modern web interfaces and server-side programming.</p><p>
+            <div id="paragraph"><p>I am a coder who loves modern web interfaces and server-side programming.</p><p>
             My first exposure to computer programming was in elementary school when I studied C++ at a summer camp over two consecutive years.
-            </p><p>Since then, I have enjoyed watching and participating in tech's growth, and am excited to be a part of the new wave of innovation.</p><p>
-            Some of my favorite technologies include: Twitter, React JS, and Ruby on Rails.
-            I enjoy high-level design and planning the coding process, and can pick up any language or framework.</p></div>
+            </p><p>Since then, I have enjoyed participating in tech's growth, and I am excited to be a part of the next wave of innovation.</p><p>
+            Some of my favorite technologies include: <strong>Twitter</strong>, <strong>React JS</strong>, and <strong>Ruby on Rails</strong>.
+            I enjoy high-level design, and can pick up any language or framework.</p></div>
           </div>
           <div class="Bottom-Icons">
             <span id="Bio-Icon"><a href="https://github.com/phant0mnyc" target="_blank"><FontAwesome.FaGithub /></a></span>
