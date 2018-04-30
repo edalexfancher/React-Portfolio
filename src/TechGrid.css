@@ -8,6 +8,7 @@
 
 .TechGrid img {
   width: 80%;
+  text-align: center;
 }
 
 .TechIcon {
@@ -15,4 +16,10 @@
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   font-weight: 600;
+}
+
+@media only screen and (max-height: 1090px) {
+    .TechGrid img {
+      width: 60%;
+    }
 }
