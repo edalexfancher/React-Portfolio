@@ -6,33 +6,3 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
-.App-header {
-  z-index: 9999;
-  background: #6a789b;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  color: white;
-  min-height: 6rem;
-  max-height: 10%;
-}
-
-.Eddie-Alex {
-  font-size: 4.65rem;
-  position: relative;
-  left: 2%;
-  float: left;
-  bottom: 2rem;
-  height: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  .Eddie-Alex {
-    position: relative;
-    top: 0;
-    font-size: 2rem;
-    z-index: 9999;
-    left: 1rem;
-  }
-} 

@@ -34,7 +34,7 @@ export class TopMenu extends React.Component {
   render() {
     if (this.state.twitterClicked === true) {
       return(
-        <div>
+        <div className="Top-Menu">
           <ul className="dropdown">
             <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
@@ -47,7 +47,7 @@ export class TopMenu extends React.Component {
     }
     else if (this.state.bioClicked === true && this.state.msgClicked === true) {
       return(
-        <div>
+        <div className="Top-Menu">
           <ul className="dropdown">
            <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
@@ -61,7 +61,7 @@ export class TopMenu extends React.Component {
         )
     } else if (this.state.bioClicked === true && this.state.msgClicked === false) {
       return(
-        <div>
+        <div className="Top-Menu">
           <ul className="dropdown">
            <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
@@ -74,7 +74,7 @@ export class TopMenu extends React.Component {
       );
     } else if (this.state.msgClicked === true) {
       return(
-        <div>
+        <div className="Top-Menu">
           <ul className="dropdown">
             <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>            <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
@@ -85,12 +85,14 @@ export class TopMenu extends React.Component {
       )
     } else {
       return(
+      <div className="Top-Menu">
         <ul className="dropdown">
           <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
             <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
             <span onClick={this.bioClick.bind(this)}><MenuButton name="Bio" icon={<FontAwesome.FaAngleDown/>} onClick={this.bioClick.bind(this)}/></span>
         </ul>
+      </div>
       )
     }
   }

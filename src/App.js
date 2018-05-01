@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { TopMenu } from './TopMenu';
+import { Header } from './Header';
 import { Footer } from './Footer';
 import { PortfolioList } from './PortfolioList';
 
@@ -8,10 +8,7 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="Eddie-Alex">Eddie Alex</h1>
-          <TopMenu/>
-        </header>
+        <Header />
         <PortfolioList />
         <footer>
           <Footer />
