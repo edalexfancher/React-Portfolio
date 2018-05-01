@@ -18,7 +18,7 @@ export class Bio extends React.Component {
       return(
         <div className="Bio" id="Resume">
           <h3>Education</h3>
-          <p id="Ed">NYU Stern Alumni</p>
+          <p id="Ed">New York University<br/> Stern School of Business</p>
           <p><em>B.S. in Business/Finance</em></p>
           <p id="Ed">Wyncode Academy</p>
           <p><em>Web Immersive Program</em></p>

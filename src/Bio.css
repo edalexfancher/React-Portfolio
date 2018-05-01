@@ -87,6 +87,7 @@
 @media only screen and (max-width: 600px) {
   .Bio {
     z-index: 9999;
+    top: 0;
   }
 
   #Web h3 {
