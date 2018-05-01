@@ -1,9 +1,14 @@
 .Header {
   position: fixed;
-  top: 0;
-  width: 100%;
+  top: 1rem;
+  width: 50%;
+  left: 12.5%;
+  right: 12.5%;
+  /*left: 2.5%;
+  right: 2.5%;*/
   background: #6a789b;
+  background-color: rgba(106, 120, 155, 0.94);
   color: white;
   z-index: 9999;
-  height: auto;
+  border-radius: 1rem;
 }

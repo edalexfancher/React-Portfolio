@@ -1,17 +1,14 @@
 .Bio {
   z-index: 5;
   position: fixed;
-  top: 8rem;
-  bottom: 8rem;
-  height: 80%;
+  top: 6rem;
+  bottom: 4rem;
   color: white;
   width: 18rem;
   background-color: rgba(106, 120, 155, 0.94);
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 1.7rem;
-  margin-bottom: 2rem;
-  min-height: 800px;
 }
 
 #Web {

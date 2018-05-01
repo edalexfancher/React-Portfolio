@@ -1,11 +1,10 @@
 #Twitter {
   z-index: 6;
   width: 30rem;
-  height: 80%;
-  top: 8rem;
-  bottom: 8rem;
+/*  height: 80%;*/
+  top: 6rem;
+  bottom: 6rem;
   right: 3.5rem;
-  
   position: fixed;
 }
 

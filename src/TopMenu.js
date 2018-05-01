@@ -38,7 +38,9 @@ export class TopMenu extends React.Component {
           <ul className="dropdown">
             <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
-            <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
+            <a href="https://soundcloud.com/edm-lounge" target="_blank"><MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>} /></a>
+            <a href="https://github.com/phant0mnyc" target="_blank"><MenuButton name="Github" icon={<FontAwesome.FaGithub />} /></a>
+            <a href="https://www.linkedin.com/in/eafancher/" target="_blank"><MenuButton name="LinkedIn" icon={<FontAwesome.FaLinkedinSquare />}/></a>
             <span onClick={this.bioClick.bind(this)}><MenuButton name="Bio" icon={<FontAwesome.FaAngleDown/>} onClick={this.bioClick.bind(this)}/></span>
           </ul>
           <Twitter />
@@ -51,7 +53,9 @@ export class TopMenu extends React.Component {
           <ul className="dropdown">
            <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
-            <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
+            <a href="https://soundcloud.com/edm-lounge" target="_blank"><MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>} /></a>
+            <a href="https://github.com/phant0mnyc" target="_blank"><MenuButton name="Github" icon={<FontAwesome.FaGithub />} /></a>
+            <a href="https://www.linkedin.com/in/eafancher/" target="_blank"><MenuButton name="LinkedIn" icon={<FontAwesome.FaLinkedinSquare />}/></a>
             <span onClick={this.bioClick.bind(this)}><MenuButton name="Bio" icon={<FontAwesome.FaAngleDown/>} onClick={this.bioClick.bind(this)}/></span>
           </ul>
           <Message />
@@ -65,7 +69,9 @@ export class TopMenu extends React.Component {
           <ul className="dropdown">
            <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
-            <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
+            <a href="https://soundcloud.com/edm-lounge" target="_blank"><MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>} /></a>
+            <a href="https://github.com/phant0mnyc" target="_blank"><MenuButton name="Github" icon={<FontAwesome.FaGithub />} /></a>
+            <a href="https://www.linkedin.com/in/eafancher/" target="_blank"><MenuButton name="LinkedIn" icon={<FontAwesome.FaLinkedinSquare />}/></a>
             <span onClick={this.bioClick.bind(this)}><MenuButton name="Bio" icon={<FontAwesome.FaAngleDown/>} onClick={this.bioClick.bind(this)}/></span>
           </ul>
           <Bio modal="web"/>
@@ -77,7 +83,10 @@ export class TopMenu extends React.Component {
         <div className="Top-Menu">
           <ul className="dropdown">
             <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
-            <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>            <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
+            <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
+            <a href="https://soundcloud.com/edm-lounge" target="_blank"><MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>} /></a>
+            <a href="https://github.com/phant0mnyc" target="_blank"><MenuButton name="Github" icon={<FontAwesome.FaGithub />} /></a>
+            <a href="https://www.linkedin.com/in/eafancher/" target="_blank"><MenuButton name="LinkedIn" icon={<FontAwesome.FaLinkedinSquare />}/></a>
             <span onClick={this.bioClick.bind(this)}><MenuButton name="Bio" icon={<FontAwesome.FaAngleDown/>} onClick={this.bioClick.bind(this)}/></span>
           </ul>
           <Message />
@@ -87,9 +96,11 @@ export class TopMenu extends React.Component {
       return(
       <div className="Top-Menu">
         <ul className="dropdown">
-          <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
+            <MenuButton name="Message Me" icon={<FontAwesome.FaEnvelope />}/>
             <span onClick={this.twitterClick.bind(this)}><MenuButton name="Twitter" icon={<FontAwesome.FaTwitter />} /></span>
-            <MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>}/>
+            <a href="https://soundcloud.com/edm-lounge" target="_blank"><MenuButton name="SoundCloud" icon={<FontAwesome.FaSoundcloud/>} /></a>
+            <a href="https://github.com/phant0mnyc" target="_blank"><MenuButton name="Github" icon={<FontAwesome.FaGithub />} /></a>
+            <a href="https://www.linkedin.com/in/eafancher/" target="_blank"><MenuButton name="LinkedIn" icon={<FontAwesome.FaLinkedinSquare />}/></a>
             <span onClick={this.bioClick.bind(this)}><MenuButton name="Bio" icon={<FontAwesome.FaAngleDown/>} onClick={this.bioClick.bind(this)}/></span>
         </ul>
       </div>

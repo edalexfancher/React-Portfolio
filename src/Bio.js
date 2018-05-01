@@ -31,8 +31,6 @@ export class Bio extends React.Component {
             I enjoy high-level design, and can pick up any language or framework.</p></div>
           </div>
           <div class="Bottom-Icons">
-            <span id="Bio-Icon"><a href="https://github.com/phant0mnyc" target="_blank"><FontAwesome.FaGithub /></a></span>
-            <span id="Bio-Icon"><a href="https://www.linkedin.com/in/eafancher/" target="_blank"><FontAwesome.FaLinkedinSquare /></a></span>
           </div>
         </div>
       )
