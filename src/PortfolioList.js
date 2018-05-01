@@ -13,7 +13,7 @@ const urlDescription1 =
   "This is a custom URL shortener I built with Ruby on Rails. An added feature is that the server can verify" + 
   " if someone else has already submitted your URL, so there will be no duplicate shortcuts created in our system.";
 const clockAppDescription1 =
-  "This is a weather app I built with React JS. The app can instantly detect where there is daylight and adjusts the styles accordingly.";
+  "A world clock app I built with React JS. The app can instantly detect where there is daylight and adjusts the styles accordingly.";
 const clockAppDescription2 =
   "When a city is clicked, more information including the current weather, news, and photos load. This incorporates two APIs.";
 const casinoDescription1 =
@@ -33,10 +33,10 @@ export class PortfolioList extends React.Component {
         <PortfolioItem title="React JS World Clock" id="clock" link="http://react-world-clock-app.com" images={
           {'./world-clock-app-1.png': clockAppDescription1, './world-clock-app-2.png': clockAppDescription2}} />
         <PortfolioItem title="Rails Casino" link="" id="casino" images={
-          {'./casino1.png': casinoDescription1,
-           './casino2.png': casinoDescription2}} />
+          {'./casino2.png': casinoDescription1,
+           './casino1.png': casinoDescription2}} />
       </div>
-      )
+    )
   }
 }
 

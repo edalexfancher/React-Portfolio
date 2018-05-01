@@ -10,11 +10,9 @@
 .App-header {
   z-index: 3;
   background: #6a789b;
- /* background: rgba(106, 120, 155, 0.85);*/
   position: fixed;
   top: 0;
   width: 100%;
- /* linear-gradient270deg, #a5a5a5, */
   color: white;
   min-height: 6rem;
   max-height: 10%;
@@ -29,17 +27,13 @@
   height: 100%;
 }
 
-/*@media screen and (max-width: 850px) {
-    .Eddie-Alex {
-      font-size: 2.5rem;
-    }
+@media only screen and (max-width: 600px) {
+  .Eddie-Alex {
+    position: absolute;
+    top: 0;
+    font-size: 3rem;
+    z-index: 9999;
+    height: 2rem;
+  }
 
-    .App-header {
-      height: 5rem;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    
-}
-*/
+} 

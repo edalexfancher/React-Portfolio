@@ -27,10 +27,3 @@ export class PortfolioItem extends React.Component {
     )
   }
 }
-
-// ( <p className="description description1" id={this.props.id + "1"}>
-//           {this.props.description1}
-//         </p>
-//         <p className="description description2" id={this.props.id + "2"}>
-//           {this.props.description2}
-//         </p>)

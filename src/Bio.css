@@ -83,3 +83,27 @@
       font-size: 1.1rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+  .Bio {
+    z-index: 9999;
+  }
+
+  #Web h3 {
+    text-align: left;
+  }
+
+
+  #Web {
+    position: absolute;
+    width: 100vw;
+    top: 10rem;
+    left: 0;
+  }
+
+  
+
+
+
+
+}
