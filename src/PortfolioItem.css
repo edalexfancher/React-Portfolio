@@ -13,7 +13,7 @@
   background-color: rgba(106, 120, 155, 1);
   padding: 0.6rem;
   font-size: 2rem;
-  z-index: 9999;
+  z-index: 9998;
 }
 
 @media only screen and (max-width: 600px) {

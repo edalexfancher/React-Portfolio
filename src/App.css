@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  z-index: 3;
+  z-index: 9999;
   background: #6a789b;
   position: fixed;
   top: 0;
