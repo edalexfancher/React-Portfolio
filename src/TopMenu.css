@@ -57,16 +57,22 @@ li:hover {
 @media only screen and (max-width: 600px) {
   ul.dropdown {
     position: absolute;
-    top: 6rem;
+    top: 4rem;
     left: 0;
-    height: 4rem;
+    height: 3rem;
     width: 100%;
-    background: #6a789b;
     z-index: 9999;
+    padding-left: 0;
+    background: #6a789b;
   }
 
   li {
-    font-size: 2.3rem;
+    font-size: 2rem;
+    padding-right: 1rem;
   }
 
+  li:first-child {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
 } 
