@@ -2,7 +2,7 @@
   position: fixed;
   top: 1rem;
   width: 50%;
-  left: 12.5%;
+  left: 25%;
   right: 12.5%;
   /*left: 2.5%;
   right: 2.5%;*/
@@ -11,4 +11,5 @@
   color: white;
   z-index: 9999;
   border-radius: 1rem;
+  padding-top: 0.5rem;
 }
