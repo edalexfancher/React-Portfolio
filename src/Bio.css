@@ -1,111 +1,89 @@
 .Bio {
   z-index: 5;
-  position: fixed;
+  /*position: fixed;
   top: 6rem;
-  bottom: 4rem;
+  bottom: 4rem;*/
   color: white;
-  width: 18rem;
-  background-color: rgba(106, 120, 155, 0.94);
-  padding-left: 3rem;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.8);
+/*  padding-left: 3rem;
   padding-right: 3rem;
-  padding-bottom: 1.7rem;
+  padding-bottom: 1.7rem;*/
+/*  display: inline-block;*/
 }
 
 #Web {
-  right: 3.5rem;
+ /* right: 3.5rem;*/
 }
 
 #Resume {
-  right: 29.5rem;
+  /*right: 29.5rem;*/
 }
 
 .Bio h3 {
-  font-size: 1.8rem;
+  font-size: 1.4vw;
 }
 
 .Bio a {
   color: white;
-  font-size: 1rem;
-}
-
-#Bio-Icon a {
-  font-size: 3rem;
-}
-
-.Bottom-Icons {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin: 0 auto;
-  margin-top: 0.3rem;
-  grid-column-gap: 0.2rem;
-  width: 50%;
+  font-size: 1vw;
 }
 
 #Ed {
-  font-size: 1.3rem;
+  font-size: 1.3vw;
+  line-height: 2vh;
 }
 
 #paragraph {
-  line-height: 1.5rem;
-  font-size: 1.1rem;
+  line-height: 3vh;
+  font-size: 1.1vw;
 }
 
 .Bio-Paragraph {
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-bottom: 0.5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
  /* margin-top: 3rem;*/
- line-height: 1.4rem;
+ line-height: 1.4vh;
 }
 
 #Stern {
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
-@media only screen and (max-height: 1090px) {
-    #paragraph {
-      font-size: 0.9rem;
-    }
-
+@media only screen and (max-width: 1100px) {
     .Bio {
-      top: 6rem;
-      height: 90%;
+      width: 100%;
     }
 
     .Bio h3 {
-      font-size: 1.3rem;
+      font-size: 3vw;
     }
 
-    #Bio-Icon a {
-      font-size: 2.5rem;
+    .Bio a {
+      color: white;
+      font-size: 2vw;
     }
 
     #Ed {
-      font-size: 1.1rem;
+      font-size: 2vw;
+      line-height: 3vh;
     }
-}
 
-@media only screen and (max-width: 600px) {
-  .Bio {
-    z-index: 9999;
-    top: 0;
-  }
+    #paragraph {
+      line-height: 4vh;
+      font-size: 2vw;
+    }
 
-  #Web h3 {
-    text-align: left;
-  }
+    .Bio-Paragraph {
+      padding-bottom: 1vh;
+      padding-left: 2vw;
+      padding-right: 2vw;
+     /* margin-top: 3rem;*/
+     line-height: 2.3vh;
+    }
 
-
-  #Web {
-    position: absolute;
-    width: 100vw;
-    top: 10rem;
-    left: 0;
-  }
-
-  
-
-
-
-
+    #Stern {
+      font-size: 2vw;
+    }
 }

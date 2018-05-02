@@ -5,7 +5,7 @@ import { Follow } from 'react-twitter-widgets';
 
 export class Twitter extends React.Component {
   render() {
-    return(
+    return( 
       <div id="Twitter">
         <Follow username="EDMLounge"/>
         <div id="Timeline">

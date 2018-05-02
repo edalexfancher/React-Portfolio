@@ -1,5 +1,5 @@
 .Message-Wrapper {
-  z-index: 5;
+  z-index: 9999;
   position: fixed;
   right: 55.6rem;
   top: 8rem;
