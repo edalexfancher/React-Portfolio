@@ -11,7 +11,8 @@
   float: left;
   text-decoration: none;
 /*  background: #6a789b;*/
-  background-color: rgba(106, 120, 155, 0.94);
+ /* background-color: rgba(106, 120, 155, 0.94);*/
+ background-color: rgba(0, 0, 0, 0.9);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.1rem;

@@ -24,6 +24,7 @@
   font-weight: 400;
   top: 20%;
   border-radius: 0.3rem;
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {

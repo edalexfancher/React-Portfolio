@@ -6,9 +6,3 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
-
-window.oncontextmenu = function(event) {
-     event.preventDefault();
-     event.stopPropagation();
-     return false;
-};
