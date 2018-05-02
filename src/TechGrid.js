@@ -29,7 +29,7 @@ export class TechGrid extends React.Component {
         <div className="TechIcon">
           <img src={require('./photoshop.png')} alt="Photoshop"/>
           <br/>
-          Adobe Photoshop
+          Photoshop
         </div>
         <div className="TechIcon">
           <img src={require('./html5.png')} alt="HTML5"/>
