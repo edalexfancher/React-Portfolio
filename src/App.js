@@ -18,7 +18,6 @@ export class App extends Component {
   handleTimer() {
     let length = images.length - 1;
     let current = this.state.current;
-    let next;
     (current === length) ? current = 0 : current++
     this.setState({current: current})
   }

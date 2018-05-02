@@ -26,6 +26,7 @@ export class TopMenu extends React.Component {
   }
 
   msgClick() {
+    console.log(this);
     if (this.state.bioClicked) {
       this.setState({bioClicked: false});
     } else if (this.state.twitterClicked) {
@@ -36,7 +37,7 @@ export class TopMenu extends React.Component {
 
   twitterClick() {
     this.state.twitterClicked ? this.setState({twitterClicked: false}) : this.setState({twitterClicked: true})
-  }
+  } 
 
   render() {
     if (this.state.twitterClicked) {

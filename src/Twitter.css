@@ -1,7 +1,7 @@
 #Twitter {
   top: 13vh;
   bottom: 5vh;
-  z-index: 6;
+  z-index: 9999;
   width: 50%;
   left: 25%;
   right: 12.5%;
