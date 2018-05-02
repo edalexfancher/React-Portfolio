@@ -5,7 +5,9 @@
   bottom: 4rem;*/
   color: white;
   width: 95%;
-  background-color: rgba(0, 0, 0, 0.8);
+/*  background-color: rgba(0, 0, 0, 0.8);*/
+  background: black;
+  border-radius: 0.2rem;
 /*  padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 1.7rem;*/
