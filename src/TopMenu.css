@@ -63,8 +63,12 @@ li:hover {
       left: 0;
       right: 0;
       grid-template-columns: 100%;
-      grid-template-rows: 50% 50%;
+      grid-template-rows: 40% 60%;
       height: 100%;
       bottom: 0;
+    }
+
+    li {
+      font-size: 5vw;
     }
 }
