@@ -2,7 +2,6 @@ import React from 'react';
 import './Bio.css';
 import './HoverLabel.css';
 import { TechGrid } from './TechGrid';
-import * as FontAwesome from 'react-icons/lib/fa';
 
 export class Bio extends React.Component {
   render() {

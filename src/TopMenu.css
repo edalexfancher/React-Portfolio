@@ -68,7 +68,14 @@ li:hover {
       bottom: 0;
     }
 
+    .Top-Menu {
+      position: relative;
+      margin: 0 auto;
+      width: 90%;
+    }
+
     li {
-      font-size: 5vw;
+      font-size: 8vw;
+      padding-right: 5vw;
     }
 }
