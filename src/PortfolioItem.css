@@ -33,9 +33,6 @@
   }
 
   .title {
-    width: 100%;
-    text-align: center;
-    display: block;
-    position: absolute;
+    display: none;
   }
 }
