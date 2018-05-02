@@ -22,7 +22,11 @@
     width: 100%;
     left: 0;
     right: 0;
-    top: 7%;
+    top: 15%;
     bottom: 0;
+  }
+
+  #Timeline {
+    margin-top: 0;
   }
 }

@@ -68,14 +68,29 @@ li:hover {
       bottom: 0;
     }
 
+    ul.dropdown {
+      padding-left: 0;
+      margin: 0 auto;
+      transform: translate(20%, 0);
+      padding-bottom: 1rem;
+    }
+
     .Top-Menu {
+      position: absolute;
+      bottom: 14%;
+      height: 40%;
+      width: 100%;
+    }
+
+   /* .Top-Menu {
       position: relative;
       margin: 0 auto;
       width: 90%;
-    }
+    }*/
 
     li {
-      font-size: 8vw;
-      padding-right: 5vw;
+      font-size: 10vw;
+      
+      padding-left: 0;
     }
 }

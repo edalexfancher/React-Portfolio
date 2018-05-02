@@ -27,3 +27,15 @@
   font-weight: 380;
 }
 
+@media only screen and (max-width: 600px) {
+  .PortfolioList {
+    top: 13%;
+  }
+
+  .title {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+  }
+}
