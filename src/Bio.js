@@ -29,8 +29,6 @@ export class Bio extends React.Component {
             Some of my favorite technologies include: <strong>Twitter</strong>, <strong>React JS</strong>, and <strong>Ruby on Rails</strong>.
             I enjoy high-level design, and can pick up any language or framework.</p></div>
           </div>
-          <div class="Bottom-Icons">
-          </div>
         </div>
       )
     }

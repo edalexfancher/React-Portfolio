@@ -9,6 +9,7 @@ export class PortfolioImage extends React.Component {
 
   scroll() {
     this.setState({scrolled: true});
+      // alert('scrollin yall');
   }
 
   componentWillMount() {

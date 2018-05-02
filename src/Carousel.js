@@ -1,29 +1,16 @@
 import React from 'react';
+import './Carousel.css';
+
+export const images = ['./pretty-lights-nyc.jpg','./beetroots-edc.jpg','./deadmau5.jpg',
+                './pretty-lights-nyc-2.jpg', './Gramatik.jpg'
+                ];
 
 export class Carousel extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { current: this.props.images[0] };
-  }
-
-
-  componentDidMount() {
-    this.
-  }
-
-
   render() {
-
+    return(
+      <div className="Carousel">
+        <img src={require(`${images[this.props.current]}`)} />
+      </div>
+    )
   }
 }
-
-function timer() {
-  setInterval(volgendefoto, 3000);
-}  
-
-
-<PortfolioItem link="http://www.edmlounge.com" id="edm" title="EDM Lounge" images={
-          {'./pretty-lights-nyc.jpg': null,
-          './pretty-lights-nyc-2.jpg': edmDescription1,
-          './beetroots-edc.jpg': edmDescription2
-          }} />
