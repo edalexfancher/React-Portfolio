@@ -47,8 +47,8 @@ export class App extends Component {
   }
 
   handleTwitterClick() {
-    if (this.state.twitterClicked) {
-      this.setState({twitterClicked: false});
+    if (this.state.bioClicked) {
+      this.setState({bioClicked: false});
     } else if (this.state.messageClicked) {
       this.setState({messageClicked: false});
     }
