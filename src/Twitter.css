@@ -1,5 +1,5 @@
 #Twitter {
-  top: 13vh;
+  top: 10%;
   bottom: 5vh;
   z-index: 9999;
   width: 50%;
@@ -22,7 +22,7 @@
     width: 100%;
     left: 0;
     right: 0;
-    top: 15%;
+    top: 10%;
     bottom: 0;
   }
 

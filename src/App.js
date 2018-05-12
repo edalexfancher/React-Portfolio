@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 import './App.css';
 import { Carousel, images } from './Carousel';
 import { Header } from './Header';
+import { Message } from './Message';
 import { Bio } from './Bio';
+import { Twitter } from './Twitter';
 import { Footer } from './Footer';
+
 
 export class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { current: 0, bioClicked: false, locked: false };
+    this.state = { current: 0, bioClicked: false, locked: false, twitterClicked: false, messageClicked: false};
     this.handleBioClick = this.handleBioClick.bind(this);
+    this.handleTwitterClick = this.handleTwitterClick.bind(this);
+    this.handleMessageClick = this.handleMessageClick.bind(this);
   }
 
   componentDidMount() {
@@ -25,19 +30,46 @@ export class App extends Component {
     }
   }
 
-   handleBioClick() {
-     this.setState({bioClicked: !this.state.bioClicked, locked: !this.state.locked});
-   }
+  handleBioClick() {
+    if (this.state.twitterClicked) {
+      this.setState({twitterClicked: false});
+    }
+    this.setState({bioClicked: !this.state.bioClicked, locked: !this.state.locked});
+  }
+
+  handleMessageClick() {
+    if (this.state.twitterClicked) {
+      this.setState({twitterClicked: false});
+    } else if (this.state.bioClicked) {
+      this.setState({bioClicked: false});
+    }
+    this.setState({messageClicked: !this.state.messageClicked, locked: !this.state.locked})
+  }
+
+  handleTwitterClick() {
+    if (this.state.twitterClicked) {
+      this.setState({twitterClicked: false});
+    } else if (this.state.messageClicked) {
+      this.setState({messageClicked: false});
+    }
+    this.setState({twitterClicked: !this.state.twitterClicked, locked: !this.state.locked});
+  }
 
   render() {
-    const bio = this.state.bioClicked ?
-      <Bio />
-      : null;
+    const bio = this.state.bioClicked ? <Bio /> : null;
+
+    const twitter = this.state.twitterClicked ? <Twitter /> : null;
+
+    const message = this.state.messageClicked ? <Message /> : null;
 
     return(
       <div className="App">
-        <Header handleBioClick={this.handleBioClick.bind(this)} />
+        <Header handleBioClick={this.handleBioClick.bind(this)} 
+        handleTwitterClick={this.handleTwitterClick.bind(this)}
+        handleMessageClick={this.handleMessageClick.bind(this)} />
+        {message}
         {bio}
+        {twitter}
         <div className="carousel-wrap">
           <Carousel current={this.state.current} />
         </div>
