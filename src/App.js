@@ -12,9 +12,7 @@ export class App extends Component {
   constructor(props) {
     super(props);
     this.state = { current: 0, bioClicked: false, locked: false, twitterClicked: false, messageClicked: false};
-    this.handleBioClick = this.handleBioClick.bind(this);
-    this.handleTwitterClick = this.handleTwitterClick.bind(this);
-    this.handleMessageClick = this.handleMessageClick.bind(this);
+    
   }
 
   componentDidMount() {
@@ -33,6 +31,8 @@ export class App extends Component {
   handleBioClick() {
     if (this.state.twitterClicked) {
       this.setState({twitterClicked: false});
+    } else if (this.state.messageClicked) {
+      this.setState({messageClicked: false});
     }
     this.setState({bioClicked: !this.state.bioClicked, locked: !this.state.locked});
   }
