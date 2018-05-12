@@ -50,7 +50,7 @@
   font-size: 1vw;
 }
 
-@media only screen and (max-width: 785px) {
+@media only screen and (max-width: 785px), screen and (max-height: 415px) {
   .Coverflow {
     grid-row: 1 / 2;
   }
