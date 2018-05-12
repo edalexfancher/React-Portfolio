@@ -8,7 +8,7 @@ import { Footer } from './Footer';
 export class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { current: 0, locked: false };
+    this.state = { current: 0, bioClicked: false, locked: false };
     this.handleBioClick = this.handleBioClick.bind(this);
   }
 

@@ -50,8 +50,8 @@ export class Bio extends React.Component {
           <TechGrid />
             <div className="Bio" id="Bio-Paragraph">
               <h3>Bio</h3>
-              <div id="paragraph"><p>I am a coder who loves modern web interfaces and server-side programming.</p><p>
-              I first got involved with computer programming when I was in elementary school, and studied C++ at a summer camp over two consecutive years.</p>
+              <div id="paragraph"><p>I am a coder who enjoys both modern web interfaces and server-side programming.</p><p>
+              I first got involved with computer programming when I was in elementary school, when I studied C++ at a summer camp over two consecutive years.</p>
               <p>Some of my favorite Internet inventions include: <strong>Twitter</strong>, <strong>React JS</strong>, and <strong>Ruby on Rails</strong>.
               I enjoy high-level design, and can pick up any language or framework.</p></div>
             </div>

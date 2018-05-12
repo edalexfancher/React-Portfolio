@@ -149,12 +149,15 @@
   #Bio-Paragraph {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
   #Resume {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
-    width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
   #Portfolio {
