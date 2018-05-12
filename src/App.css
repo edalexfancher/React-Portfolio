@@ -1,9 +1,18 @@
 .App {
   text-align: center;
   overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+.carousel-wrap {
+  height: 100vh;
+  background-color: black;
 }

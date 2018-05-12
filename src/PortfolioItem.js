@@ -1,29 +1,15 @@
 import React from 'react';
-import { PortfolioImage } from './PortfolioImage';
-import './PortfolioItem.css';
 
 export class PortfolioItem extends React.Component {
-  imageLoop() {
-    let html = [];
-    let images = this.props.images;
-    for (var key in images) {
-      if (images.hasOwnProperty(key)) {
-        html.push(<PortfolioImage src={key} description={images[key]}/>);
-      }
-    }
-    return html;
+  handleClick() {
+    this.props.toggleCurrent(this.props.name);
   }
 
   render() {
-    return (
-      <div className="PortfolioItem">
-        <div className="title">
-          <h3>{this.props.title}</h3>
-        </div>
-        <div className="ImageArea">
-          {this.imageLoop()}
-        </div>
-      </div>
-    )
+    if (!this.props.current) {
+      return (<li onClick={() => this.handleClick()}>{this.props.name}</li>);
+    } else {
+      return(<li onClick={() => this.handleClick()} className="current">{this.props.name}</li>);
+    }
   }
 }

@@ -1,11 +1,35 @@
 import React from 'react';
+import Coverflow from 'react-coverflow';
 import './TechGrid.css';
-
 
 export class TechGrid extends React.Component {
   render() {
     return(
-      <div className="TechGrid">
+      <div className="Coverflow">
+        <h2>Full-Stack Developer - Miami, Florida</h2>
+        <Coverflow
+        displayQuantityOfSide={2}
+        navigation={true}
+        enableHeading={true}
+        clickable={true}
+        width={700}
+        height={380}>
+          <img src={require('./ruby.png')} alt="Ruby"/>      
+          <img src={require('./rails.png')} alt="Rails"/>
+          <img src={require('./react.png')} alt="React Js"/>
+          <img src={require('./angular.png')} alt="Angular JS"/>
+          <img src={require('./node-js.png')} alt="Node JS"/>
+          <img src={require('./photoshop.png')} alt="Photoshop"/>
+          <img src={require('./html5.png')} alt="HTML5"/>
+          <img src={require('./css.png')} alt="CSS3"/>   
+          <img src={require('./sql.png')} alt="SQL"/>     
+        </Coverflow>
+      </div>
+    )
+  }
+}
+
+var old = (<div className="TechGrid">
         <div className="TechIcon">
           <img src={require('./ruby.png')} alt="Ruby"/>
           <br/>
@@ -20,6 +44,11 @@ export class TechGrid extends React.Component {
           <img src={require('./react.png')} alt="React Js"/>
           <br/>
           React JS
+        </div>
+        <div className="TechIcon">
+          <img src={require('./angular.png')} alt="Angular JS"/>
+          <br/>
+          Angular JS
         </div>
         <div className="TechIcon">
           <img src={require('./node-js.png')} alt="Node JS"/>
@@ -46,7 +75,4 @@ export class TechGrid extends React.Component {
           <br/>
           SQL
         </div>
-      </div>
-      )
-  }
-}
+      </div>)

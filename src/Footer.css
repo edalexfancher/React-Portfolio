@@ -8,9 +8,16 @@
   bottom: 0;
   font-size: 0.6rem;
   padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  padding-top: 1vh;
   font-weight: 300;
-  font-size: 1vw;
+  font-size: 0.8vw;
   z-index: 6;
   font-family: Helvetica;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Footer {
+    font-size: 13px;
+    
+  }
 }
