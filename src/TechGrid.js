@@ -1,5 +1,6 @@
 import React from 'react';
 import Coverflow from 'react-coverflow';
+import {StyleRoot} from 'radium';
 import './TechGrid.css';
 
 export class TechGrid extends React.Component {
@@ -7,13 +8,22 @@ export class TechGrid extends React.Component {
     return(
       <div className="Coverflow">
         <h2>Full-Stack Developer - Miami, Florida</h2>
+        <StyleRoot>
         <Coverflow
         displayQuantityOfSide={2}
         navigation={true}
         enableHeading={true}
         clickable={true}
-        width={700}
-        height={380}>
+        media={{
+      '@media (max-width: 900px)': {
+        width: '400px',
+        height: '250px'
+      },
+      '@media (min-width: 900px)': {
+        width: '700px',
+        height: '380px'
+      }
+    }}>
           <img src={require('./ruby.png')} alt="Ruby"/>      
           <img src={require('./rails.png')} alt="Rails"/>
           <img src={require('./react.png')} alt="React Js"/>
@@ -24,6 +34,7 @@ export class TechGrid extends React.Component {
           <img src={require('./css.png')} alt="CSS3"/>   
           <img src={require('./sql.png')} alt="SQL"/>     
         </Coverflow>
+        </StyleRoot>
       </div>
     )
   }

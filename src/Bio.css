@@ -19,10 +19,6 @@
   grid-row: 2 / 5;
 }
 
-.Bio h3 {
-  font-size: 1.3vw;
-}
-
 .Bio a {
   color: white;
   font-size: 1vw;
@@ -33,11 +29,6 @@
   padding-right: 1vw;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
-}
-
-.Ed {
-  font-size: 1.5vw;
-  line-height: 1.5vh;
 }
 
 #Ed {
@@ -52,10 +43,6 @@
 
 #Ed p {
   margin: 0;
-}
-
-#paragraph {
-  font-size: 0.9vw;
 }
 
 #Bio-Paragraph {
@@ -133,6 +120,39 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 810px) {
-  
+@media only screen and (max-width: 785px) {
+  .Bio {
+    background: black;
+    border-radius: 0;
+  }
+
+  .Bio-Wrap {
+    width: 100vw;
+    top: 6%;
+    padding: 0;
+  }
+
+  .Bio-Grid {
+    width: 100%;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  #Bio-Paragraph {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+
+  #Resume {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    width: 100%;
+  }
+
+  #Portfolio {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+
 }
