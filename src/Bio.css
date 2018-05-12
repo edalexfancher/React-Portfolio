@@ -120,19 +120,26 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 785px) {
+@media only screen and (max-width: 785px), screen and (max-height: 850px) {
+  .Overlay {
+    display: none;
+  }
+
   .Bio {
     background: black;
     border-radius: 0;
   }
 
   .Bio-Wrap {
+    top: 10%;
+    padding: 0;
     width: 100vw;
-    top: 6%;
     padding: 0;
   }
 
   .Bio-Grid {
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     width: 100%;
     grid-template-columns: 100vw;
     grid-template-rows: auto auto auto auto;

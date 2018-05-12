@@ -50,13 +50,13 @@
   font-size: 1vw;
 }
 
-@media only screen and (max-width: 785px), screen and (max-height: 415px) {
+@media only screen and (max-width: 785px), screen and (max-height: 850px) {
   .Coverflow {
     grid-row: 1 / 2;
   }
 
   .coverflow__text__TAisD {
   background: rgba(40, 40, 40, 0.9);
-  font-size: 1.5vw;
+  font-size: 1.6vw;
 }
 }
