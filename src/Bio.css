@@ -138,6 +138,7 @@
   }
 
   .Bio-Grid {
+    overflow: hidden;
     grid-column-gap: 0;
     grid-row-gap: 0;
     width: 100%;
