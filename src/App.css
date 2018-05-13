@@ -1,10 +1,19 @@
 .App {
   text-align: center;
   overflow: hidden;
-  width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
+  -webkit-animation: fadeInApp 0.5s 1;
+  -moz-animation:    fadeInApp 0.5s 1;
+  animation:         fadeInApp 0.5s 1;
+}
+
+@keyframes fadeInApp {
+  0% { opacity: 0.1; }
+  25% { opacity: 0.3; }
+  50% { opacity: 0.5; }
+  75% { opacity: 0.8; }
+  100% { opacity: 1; }
 }
 
 .App-logo {

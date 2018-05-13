@@ -7,7 +7,7 @@ export class TechGrid extends React.Component {
   render() {
     return(
       <div className="Coverflow">
-        <h2>Full-Stack Developer - Miami, Florida</h2>
+        <h2>Full-Stack Web Developer<br/>Miami, Florida</h2>
         <StyleRoot>
         <Coverflow
         displayQuantityOfSide={2}
@@ -16,7 +16,7 @@ export class TechGrid extends React.Component {
         clickable={true}
         media={{
       '@media (max-width: 900px)': {
-        width: '400px',
+        width: '340px',
         height: '250px'
       },
       '@media (min-width: 900px)': {

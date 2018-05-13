@@ -56,8 +56,13 @@
     padding-top: 5%;
   }
 
+  .Coverflow h2 {
+    font-size: 1.3rem;
+    margin-bottom: -2rem;
+  }
+
   .coverflow__text__TAisD {
   background: rgba(40, 40, 40, 0.9);
-  font-size: 1.6vw;
+  font-size: 0.7rem;
 }
 }
