@@ -9,7 +9,7 @@ export class Message extends React.Component {
   render() {
     return(
       <div className="Message-Wrapper">
-        <div className="Overlay"></div>
+        <div className="Message-Overlay"></div>
         <form method="POST" action="https://formspree.io/edmlounge@gmail.com">
           <input ref={(input) => { this.nameInput = input; }} type="email" name="email" placeholder="Your email" />
           <textarea name="message" placeholder="Your message"></textarea>

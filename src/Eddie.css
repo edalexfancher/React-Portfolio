@@ -12,7 +12,7 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 1100px) {
   .Eddie {
     font-size: 3vw;
   }

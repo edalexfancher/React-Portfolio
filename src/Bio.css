@@ -117,7 +117,7 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 785px), screen and (max-height: 850px) {
+@media only screen and (max-width: 1100px), screen and (max-height: 850px) {
   .Overlay {
     display: none;
   }
@@ -128,7 +128,7 @@
   }
 
   .Bio-Wrap {
-    top: 8%;
+    top: 5%;
     padding: 0;
     width: 100vw;
     padding: 0;
