@@ -11,8 +11,7 @@ import { Footer } from './Footer';
 export class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { current: 0, bioClicked: false, locked: false, twitterClicked: false, messageClicked: false};
-    
+    this.state = { current: 0, bioClicked: false, locked: false, twitterClicked: false, messageClicked: false}; 
   }
 
   componentDidMount() {
@@ -26,6 +25,10 @@ export class App extends Component {
       (current === length) ? current = 0 : current++
       this.setState({current: current})
     }
+  }
+
+  unclickAll() {
+    this.setState({twitterClicked: false, messageClicked: false, bioClicked: false});
   }
 
   handleBioClick() {
@@ -66,7 +69,8 @@ export class App extends Component {
       <div className="App">
         <Header handleBioClick={this.handleBioClick.bind(this)} 
         handleTwitterClick={this.handleTwitterClick.bind(this)}
-        handleMessageClick={this.handleMessageClick.bind(this)} />
+        handleMessageClick={this.handleMessageClick.bind(this)}
+        unclickAll={this.unclickAll.bind(this)} />
         {message}
         {bio}
         {twitter}

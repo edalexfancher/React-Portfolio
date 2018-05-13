@@ -34,7 +34,7 @@ export class Header extends React.Component {
     const isClicked = this.state.clicked;
     return(
       <div className={isClicked ? "Clicked Header": "Header"}>
-        <Eddie />
+        <Eddie unclick={this.props.unclickAll} />
         <TopMenu handleBioClick={this.handleBioClick.bind(this)}
         handleTwitterClick={this.handleTwitterClick.bind(this)}
         handleMessageClick={this.handleMessageClick.bind(this)} />
