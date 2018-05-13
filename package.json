@@ -17,7 +17,7 @@
     "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
-    "start": "pm2 start index.js -i max — name=\"react-portfolio\"",
+    "start": "pm2 start npm -- start",
     "restart": "pm2 restart all"
   }
 }
