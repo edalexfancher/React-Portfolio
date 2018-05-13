@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "npm": "^6.0.1",
+    "pm2": "^2.10.3",
     "react": "^16.3.2",
     "react-coverflow": "^0.2.14",
     "react-dom": "^16.3.2",
@@ -17,9 +18,7 @@
     "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "pm2 start index.js -i max — name=\”react-portfolio\”"",
+    "restart": "pm2 restart all"
   }
 }
