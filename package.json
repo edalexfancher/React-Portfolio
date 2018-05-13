@@ -17,7 +17,6 @@
     "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
-    "start": "pm2 start npm -- start",
-    "restart": "pm2 restart all"
+    "start": "react-scripts start"
   }
 }
