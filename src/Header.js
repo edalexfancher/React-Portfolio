@@ -9,9 +9,25 @@ export class Header extends React.Component {
     this.state = {clicked: false};
   }
 
-  handleClick() {
+  handleBioClick() {
     this.props.handleBioClick();
-    this.setState({clicked: !this.state.clicked});
+    if (!this.state.clicked) {
+      this.setState({clicked: true});
+    }
+  }
+
+  handleTwitterClick() {
+    this.props.handleTwitterClick();
+    if (!this.state.clicked) {
+      this.setState({clicked: true});
+    }
+  }
+
+  handleMessageClick() {
+    this.props.handleMessageClick();
+    if (!this.state.clicked) {
+      this.setState({clicked: true});
+    }
   }
 
   render() {
@@ -19,9 +35,9 @@ export class Header extends React.Component {
     return(
       <div className={isClicked ? "Clicked Header": "Header"}>
         <Eddie />
-        <TopMenu handleBioClick={this.handleClick.bind(this)}
-        handleTwitterClick={this.props.handleTwitterClick}
-        handleMessageClick={this.props.handleMessageClick} />
+        <TopMenu handleBioClick={this.handleBioClick.bind(this)}
+        handleTwitterClick={this.handleTwitterClick.bind(this)}
+        handleMessageClick={this.handleMessageClick.bind(this)} />
       </div>
     )
   }
