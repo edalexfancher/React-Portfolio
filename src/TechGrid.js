@@ -20,7 +20,7 @@ export class TechGrid extends React.Component {
         height: '250px'
       },
       '@media (min-width: 900px)': {
-        width: '700px',
+        width: '600px',
         height: '380px'
       }
     }}>

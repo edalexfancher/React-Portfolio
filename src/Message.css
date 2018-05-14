@@ -6,7 +6,18 @@
   left: 25%;
   right: 12.5%;
   position: fixed;
-  overflow: scroll;
+  overflow: none;
+  -webkit-animation: fadeInMessage 0.5s 1;
+  -moz-animation:    fadeInMessage 0.5s 1;
+  animation:         fadeInMessage 0.5s 1;
+}
+
+@keyframes fadeInMessage {
+  0% { opacity: 0.3; }
+  25% { opacity: 0.5; }
+  50% { opacity: 0.7; }
+  75% { opacity: 0.9; }
+  100% { opacity: 1; }
 }
 
 .Message-Overlay {
@@ -88,7 +99,7 @@ form {
     width: 100%;
     left: 0;
     right: 0;
-    top: 10%;
+    top: 7%;
     bottom: 0;
   }
 

@@ -32,6 +32,14 @@ li {
   padding-right: 1vw;
 }
 
+.dropdown path:hover {
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1100px) {
   li {
     padding-top: 1vh;
