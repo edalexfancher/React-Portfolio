@@ -20,8 +20,30 @@
   .Bottom-Menu {
     display: block;
     position: absolute;
-    bottom: 12vh;
+    top: 80vh;
     right: 9vw;
-    z-index: 9998;
+    z-index: 9999;
+  }
+
+  .Clicked {
+    -webkit-animation: flyUp 0.5s 1;
+    -moz-animation:    flyUp 0.5s 1;
+    animation:         flyUp 0.5s 1;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  }
+
+  @keyframes flyUp {
+    10% {opacity: 0.3; top: 75vh;}
+    20% {opacity: 0.4; top: 64vh;}
+    30% {opacity: 0.5; top: 54vh;}
+    40% {opacity: 0.6; top: 45vh;}
+    50% {opacity: 0.7; top: 40vh;}
+    60% {opacity: 0.8; top: 32vh;}
+    70% {opacity: 0.8; top: 25vh;}
+    80% {opacity: 0.9; top: 15vh;}
+    90% {opacity: 0.9; top: 8vh;}
+    100% {opacity: 1; top: 2vh;}
   }
 }

@@ -4,9 +4,9 @@ import { Eddie } from './Eddie';
 import './Header.css';
 
 export class Header extends React.Component {
-  constructor() {
-    super();
-    this.state = {clicked: false};
+  constructor(props) {
+    super(props);
+    this.state = {clicked: false, showEddie: this.props.showEddie};
   }
 
   handleBioClick() {
@@ -32,9 +32,10 @@ export class Header extends React.Component {
 
   render() {
     const isClicked = this.state.clicked;
+    const showEddie = this.state.showEddie;
     return(
       <div className={isClicked ? "Clicked Header": "Header"}>
-        <Eddie unclick={this.props.unclickAll} />
+        {showEddie ? <Eddie unclick={this.props.unclickAll} /> : null }
         <TopMenu handleBioClick={this.handleBioClick.bind(this)}
         handleTwitterClick={this.handleTwitterClick.bind(this)}
         handleMessageClick={this.handleMessageClick.bind(this)} />

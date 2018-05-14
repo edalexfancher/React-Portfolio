@@ -11,7 +11,7 @@ import { Footer } from './Footer';
 export class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { current: 0, bioClicked: false, locked: false, twitterClicked: false, messageClicked: false}; 
+    this.state = { current: 0, bioClicked: false, locked: false, twitterClicked: false, messageClicked: false, showEddie: true}; 
   }
 
   componentDidMount() {
@@ -58,6 +58,10 @@ export class App extends Component {
     this.setState({twitterClicked: !this.state.twitterClicked, locked: !this.state.locked});
   }
 
+  toggleEddie() {
+    this.setState({showEddie: !this.state.showEddie});
+  }
+
   render() {
     const bio = this.state.bioClicked ? <Bio /> : null;
 
@@ -67,7 +71,7 @@ export class App extends Component {
 
     return(
       <div className="App">
-        <Header handleBioClick={this.handleBioClick.bind(this)} 
+        <Header showEddie={this.state.showEddie} handleBioClick={this.handleBioClick.bind(this)} 
         handleTwitterClick={this.handleTwitterClick.bind(this)}
         handleMessageClick={this.handleMessageClick.bind(this)}
         unclickAll={this.unclickAll.bind(this)} />
@@ -78,7 +82,7 @@ export class App extends Component {
           <Carousel current={this.state.current} />
         </div>
         <footer>
-          <Footer handleBioClick={this.handleBioClick.bind(this)} 
+          <Footer toggleEddie={this.toggleEddie.bind(this)} handleBioClick={this.handleBioClick.bind(this)} 
         handleTwitterClick={this.handleTwitterClick.bind(this)}
         handleMessageClick={this.handleMessageClick.bind(this)}
         unclickAll={this.unclickAll.bind(this)}/>

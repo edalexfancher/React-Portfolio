@@ -6,7 +6,7 @@ export class Footer extends React.Component {
   render() { 
     return (
       <div>
-      <BottomMenu handleBioClick={this.props.handleBioClick} 
+      <BottomMenu toggleEddie={this.props.toggleEddie} handleBioClick={this.props.handleBioClick} 
         handleTwitterClick={this.props.handleTwitterClick}
         handleMessageClick={this.props.handleMessageClick}
         unclickAll={this.props.unclickAll}/>
