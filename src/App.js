@@ -78,7 +78,10 @@ export class App extends Component {
           <Carousel current={this.state.current} />
         </div>
         <footer>
-          <Footer />
+          <Footer handleBioClick={this.handleBioClick.bind(this)} 
+        handleTwitterClick={this.handleTwitterClick.bind(this)}
+        handleMessageClick={this.handleMessageClick.bind(this)}
+        unclickAll={this.unclickAll.bind(this)}/>
         </footer>
       </div>
     )
