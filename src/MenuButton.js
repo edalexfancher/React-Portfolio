@@ -14,11 +14,11 @@ export class MenuButton extends React.Component {
   render() {
     if (this.state.hover === false) {
       return(
-        <li onMouseOver={this.handleHover.bind(this)} onMouseOut={this.handleHover.bind(this)}>{this.props.icon}</li>
+        <div className="menubtn" onMouseOver={this.handleHover.bind(this)} onMouseOut={this.handleHover.bind(this)}>{this.props.icon}</div>
       )
     } else {
       return(
-        <li onMouseOver={this.handleHover.bind(this)} onMouseOut={this.handleHover.bind(this)}>{this.props.icon}<HoverLabel label={this.props.name} /></li>
+        <div className="menubtn" onMouseOver={this.handleHover.bind(this)} onMouseOut={this.handleHover.bind(this)}>{this.props.icon}<HoverLabel label={this.props.name} /></div>
       )
     }
   }

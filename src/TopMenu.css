@@ -1,38 +1,22 @@
 .Top-Menu {
-  position: absolute;
+  position: relative;
   bottom: 0;
   right: 0;
   height: 100%;
   z-index: 9998;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-column-gap: 0.5rem;
+  padding-bottom: 0.6rem;
+  float: right;
+  font-size: 3.5rem;
 }
 
 .Top-Menu a {
   color: white;
 }
 
-ul.dropdown                         { z-index: 10; margin: 0 auto; right: 5rem; vertical-align: middle; height: 100%;}
-ul.dropdown:hover {
-  cursor: pointer;
-}
-
-ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; }
-ul.dropdown a:hover               { color: white; }
-ul.dropdown a:active                { color: white; }
-ul.dropdown li a                    { display: block; padding: 4px 8px;
-                    color: white; }
-/* ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */ */
-ul.dropdown li.hover,
-ul.dropdown li:hover                { background: #F3D673; color: black; position: relative; }
-ul.dropdown li.hover a              { color: black; }
-
-li {
-  display: inline;
-  list-style: none;
-  font-size: 4vw;
-  padding-right: 1vw;
-}
-
-.dropdown path:hover {
+.Top-Menu:hover {
   cursor: pointer;
 }
 
@@ -40,13 +24,12 @@ li {
   cursor: pointer;
 }
 
-.Bottom-Menu {
-  display: none;
-}
-
 @media only screen and (max-width: 1100px) {
-  li {
-    padding-top: 1vh;
-    font-size: 4.5vw;
+  .Top-Menu {
+    width: 70%;
+    font-size: 3.3rem;
+    float: inherit;
+    margin: 0 auto;
+    grid-column-gap: 0;
   }
 }

@@ -9,6 +9,10 @@ export class Header extends React.Component {
     this.state = {clicked: false, showEddie: this.props.showEddie};
   }
 
+  componentWillReceiveProps(nextProps) {
+    this.setState({showEddie: nextProps.showEddie});
+  }
+
   handleBioClick() {
     this.props.handleBioClick();
     if (!this.state.clicked) {
@@ -28,7 +32,7 @@ export class Header extends React.Component {
     if (!this.state.clicked) {
       this.setState({clicked: true});
     }
-  }
+  }   
 
   render() {
     const isClicked = this.state.clicked;

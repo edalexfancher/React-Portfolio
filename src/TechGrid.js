@@ -24,66 +24,18 @@ export class TechGrid extends React.Component {
         height: '380px'
       }
     }}>
-          <img src={require('./ruby.png')} alt="Ruby"/>      
-          <img src={require('./rails.png')} alt="Rails"/>
-          <img src={require('./react.png')} alt="React Js"/>
-          <img src={require('./angular.png')} alt="Angular JS"/>
-          <img src={require('./node-js.png')} alt="Node JS"/>
-          <img src={require('./photoshop.png')} alt="Photoshop"/>
-          <img src={require('./html5.png')} alt="HTML5"/>
-          <img src={require('./css.png')} alt="CSS3"/>   
-          <img src={require('./sql.png')} alt="SQL"/>     
+          <img src='ruby.png' alt="Ruby"/>      
+          <img src='rails.png' alt="Rails"/>
+          <img src='react.png' alt="React Js"/>
+          <img src='angular.png' alt="Angular JS"/>
+          <img src='node-js.png' alt="Node JS"/>
+          <img src='photoshop.png' alt="Photoshop"/>
+          <img src='html5.png' alt="HTML5"/>
+          <img src='css.png' alt="CSS3"/>   
+          <img src='sql.png' alt="SQL"/>     
         </Coverflow>
         </StyleRoot>
       </div>
     )
   }
 }
-
-var old = (<div className="TechGrid">
-        <div className="TechIcon">
-          <img src={require('./ruby.png')} alt="Ruby"/>
-          <br/>
-          Ruby
-        </div>
-        <div className="TechIcon">
-          <img src={require('./rails.png')} alt="Rails"/>
-          <br/>
-          Rails
-        </div>
-        <div className="TechIcon">
-          <img src={require('./react.png')} alt="React Js"/>
-          <br/>
-          React JS
-        </div>
-        <div className="TechIcon">
-          <img src={require('./angular.png')} alt="Angular JS"/>
-          <br/>
-          Angular JS
-        </div>
-        <div className="TechIcon">
-          <img src={require('./node-js.png')} alt="Node JS"/>
-          <br/>
-          Node JS
-        </div>
-        <div className="TechIcon">
-          <img src={require('./photoshop.png')} alt="Photoshop"/>
-          <br/>
-          Photoshop
-        </div>
-        <div className="TechIcon">
-          <img src={require('./html5.png')} alt="HTML5"/>
-          <br/>
-          HTML5
-        </div>
-        <div className="TechIcon">
-          <img src={require('./css.png')} alt="CSS3"/>
-          <br/>
-          CSS3
-        </div>
-        <div className="TechIcon">
-          <img src={require('./sql.png')} alt="SQL"/>
-          <br/>
-          SQL
-        </div>
-      </div>)

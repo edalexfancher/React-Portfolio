@@ -31,24 +31,27 @@
 
 @media only screen and (max-width: 1100px), screen and (max-height: 850px) {
     .Header {
+      top: inherit;
+      height: 13vh;
+      width: 100%;
+      bottom: 12vh;
       left: 0;
-      right: 0;
-      top: 0;
-      width: 100vw;
       margin-bottom: 0;
       border-radius: 0;
-      background: black;
+      padding: 0;
+      background: #2C2C2C;
     }
 
     .Clicked {
-      -webkit-animation: clicked 3s 1;
+      /*-webkit-animation: clicked 3s 1;
       -moz-animation:    clicked 3s 1;
-      animation:         clicked 3s 1;
+      animation:         clicked 3s 1;*/
+      top: 0;
     }
-
+/*
     @keyframes clicked {
       100% {background-color: rgb(30, 30, 30);}
-    }
+    }*/
 }
 
 /*@media only screen and (max-width: 640px) {

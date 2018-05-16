@@ -24,8 +24,8 @@ export class Bio extends React.Component {
       return(
         <div className="Bio-Wrap">
           <div className="Overlay"></div>
-          <div className="Bio-Grid">
-            <Preview name={this.state.preview} />
+            <div className="Bio-Grid">
+              <Preview name={this.state.preview} />
             <div className="Bio" id="Portfolio" onClick={this.handlePortfolioClick.bind(this)}>
               <h3 onClick={this.handlePortfolioClick.bind(this)}>Current Projects & Portfolio</h3>
             </div>
@@ -36,18 +36,18 @@ export class Bio extends React.Component {
     } else return (
         <div className="Bio-Wrap">
           <div className="Overlay"></div>
-          <div className="Bio-Grid">
-          <div className="Bio" id="Resume">
-            <div id="Ed"><h3>Education</h3>
-              <h4>New York University</h4><p id="Stern">Stern School of Business</p>
-              <p><em>B.S. in Business/Finance</em></p><br/>
-              <hr/>
-              <h4>Wyncode Academy</h4>
-              <p><em>Web Immersive Program (300+ Hours)</em></p>
-              <br/><br/><br/><br/><br/>
-            </div>
-          </div>    
-          <TechGrid />
+            <div className="Bio-Grid">
+            <div className="Bio" id="Resume">
+              <div id="Ed"><h3>Education</h3>
+                <h4>New York University</h4><p id="Stern">Stern School of Business</p>
+                <p><em>B.S. in Business/Finance</em></p><br/>
+                <hr/>
+                <h4>Wyncode Academy</h4>
+                <p><em>Web Immersive Program (300+ Hours)</em></p>
+                <br/><br/><br/><br/><br/>
+              </div>
+            </div>    
+            <TechGrid />
             <div className="Bio" id="Bio-Paragraph">
               <h3>Bio</h3>
               <div id="paragraph"><p>I am a coder who enjoys both modern web interfaces and server-side programming.</p><p>
