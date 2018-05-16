@@ -43,7 +43,7 @@ export class Bio extends React.Component {
                 <p><em>B.S. in Business/Finance</em></p><br/>
                 <hr/>
                 <h4>Wyncode Academy</h4>
-                <p><em>Web Immersive Program (300+ Hours)</em></p>
+                <p><em>Web Immersive Program<br/>300+ Hours</em></p>
                 <br/><br/><br/><br/><br/>
               </div>
             </div>    
