@@ -1,77 +1,53 @@
-.TechGrid {
-  color: white;
-  z-index: 6;
-  grid-row: 3 / 5;
-  grid-column: 1 / 2;
-  display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  margin-bottom: 2vh;
-  margin: 0 auto;
-}
-
-.TechGrid img {
-  position: relative;
-  width: 55%;
-  text-align: center;
-}
-
-.TechIcon {
-  background: linear-gradient(18deg, black, darkred);
-  font-weight: 600;
-  font-size: 1vw;
-  border-radius: 0.2rem;
-  width: 100%;
-  padding-top: 2vh;
-}
-
 .Coverflow {
   color: black;
   z-index: 6;
   grid-column: 1 / 3;
-  grid-row: 3 / 5;
+  grid-row: 3 / 4;
   border-radius: 0.4rem;
   border-bottom: 0.1rem solid rgba(255, 255, 255, 0.4);
   border-top: 0.1rem solid rgba(255, 255, 255, 0.4);
   background: white;
   background: rgba(255, 255, 255, 0.5);
-  padding-left: 1vw;
-  padding-right: 1vw;
-  font-weight: 300;
-}
-
-.Coverflow div {
-  background: none;
-}
-
-.Coverflow h2 {
-  margin-bottom: -4rem;
-  font-weight: 300;
+  font-weight: 500;
+  height: 85%;
 }
 
 .Coverflow img {
   box-shadow: 1px 1px 3px grey;
-/*  padding: 1vw;*/
   background: rgb(50, 50, 50);
 }
 
 .coverflow__text__TAisD {
-  background: rgba(40, 40, 40, 0.9);
-  font-size: 1vw;
+  grid-row: 4 / 5;
+  grid-column: 1 / 3;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0.7rem;
+}
+
+.coverflow__actions__MMUtW {
+  bottom: 0;
+  position: sticky; 
+  margin-bottom: 2.5rem;
+}
+
+.coverflow__actions__MMUtW button {
+  background: black !important;
+}
+
+.coverflow__actions__MMUtW button:hover {
+  background: darkgrey !important;
 }
 
 @media only screen and (max-width: 1100px), screen and (max-height: 850px) {
   .Coverflow {
     grid-row: 1 / 2;
-    padding-top: 5%;
+    border: 0;
   }
 
   .Coverflow h2 {
     font-size: 1.3rem;
     margin-bottom: -2rem;
   }
-
-  .coverflow__text__TAisD {
-  background: rgba(40, 40, 40, 0.9);
-  font-size: 0.7rem;
-}
 }

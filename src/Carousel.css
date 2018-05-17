@@ -23,7 +23,7 @@
 @media only screen and (max-width: 1100px) {
     .Carousel {
       position: relative;
-      top: 12vh;
+      top: 8rem;
     }
  /*   .Carousel img {
       height: 60vh;
