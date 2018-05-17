@@ -1,10 +1,9 @@
 .Eddie {
   font-size: 2rem;
   position: relative;
-  margin-left: 2%;
   float: left;
+  padding-left: 1rem;
   bottom: 0;
-  padding-top: 0.3vh;
   z-index: 6;
 }
 
@@ -17,11 +16,13 @@
   .Eddie {
     font-size: 1.5rem;
     width: 100%;
-    margin: 0;
+    text-align: center;
+    padding: 0;
   }
 
   .Eddie h1 {
     font-family: Arial;
     font-weight: 350;
+    text-align: center;
   }
 }

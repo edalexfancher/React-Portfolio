@@ -1,9 +1,16 @@
 .Bio {
   z-index: 5;
   color: white;
-  background: rgba(0, 0, 0, 0.75);
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.4);
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem;
   top: 0;
+  font-weight: 300;
+}
+
+.Bio h3 {
+  margin-bottom: 1rem;
 }
 
 #Web {
@@ -34,8 +41,13 @@
   padding-right: 3vw;
 }
 
+hr {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 #Ed h4 {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 #Ed p {
@@ -87,7 +99,7 @@
 }
 
 .Bio-Wrap {
-  top: 12%;
+  top: 7rem;
   z-index: 6;
   width: 95vw;
   padding-left: 2.5vw;
@@ -105,7 +117,7 @@
   left: 0;
   top: 0;
   position: fixed;
-  background: rgba(20, 20, 20, 0.8);
+  background: rgba(10, 10, 10, 0.9);
 }
 
 .Bio-Grid {
@@ -124,7 +136,7 @@
   }
 
   .Bio-Wrap {
-    top: 20%;
+    top: 6rem;
     padding: 0;
     width: 100vw;
     padding: 0;

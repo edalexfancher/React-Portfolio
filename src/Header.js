@@ -6,7 +6,7 @@ import './Header.css';
 export class Header extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {clicked: false, showEddie: this.props.showEddie};
+    this.state = {clicked: false};
   }
 
   componentWillReceiveProps(nextProps) {
@@ -39,7 +39,7 @@ export class Header extends React.Component {
     const showEddie = this.state.showEddie;
     return(
       <div className={isClicked ? "Clicked Header": "Header"}>
-        {showEddie ? <Eddie unclick={this.props.unclickAll} /> : null }
+        <Eddie unclick={this.props.unclickAll} />
         <TopMenu handleBioClick={this.handleBioClick.bind(this)}
         handleTwitterClick={this.handleTwitterClick.bind(this)}
         handleMessageClick={this.handleMessageClick.bind(this)} />

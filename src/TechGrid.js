@@ -15,13 +15,21 @@ export class TechGrid extends React.Component {
         enableHeading={true}
         clickable={true}
         media={{
+      '@media (min-width: 110px)': {
+        width: '600px',
+        height: '325px'
+      },
       '@media (max-width: 900px)': {
-        width: '340px',
+        width: '700px',
+        height: '380px'
+      },
+      '@media (max-width: 700px)': {
+        width: '500px',
         height: '250px'
       },
-      '@media (min-width: 900px)': {
-        width: '600px',
-        height: '380px'
+      '@media (max-width: 400px)': {
+        width: '300px',
+        height: '250px'
       }
     }}>
           <img src='ruby.png' alt="Ruby"/>      

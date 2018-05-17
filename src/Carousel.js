@@ -9,6 +9,7 @@ export class Carousel extends React.Component {
   render() {
     return(
       <div className="Carousel">
+      	<div className="carousel-overlay"></div>
         <img src={images[this.props.current]} />
       </div>
     )
