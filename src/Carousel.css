@@ -7,7 +7,7 @@
 
 .carousel-overlay {
   position: absolute;
-  background: linear-gradient(20deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(20deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
   height: 100%;
   width: 100%;
   z-index: 5;
@@ -23,7 +23,7 @@
 @media only screen and (max-width: 1100px) {
     .Carousel {
       position: relative;
-      top: 8rem;
+      top: 7rem;
     }
  /*   .Carousel img {
       height: 60vh;

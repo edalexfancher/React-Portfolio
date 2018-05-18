@@ -1,8 +1,11 @@
 import React from 'react';
 import './Carousel.css';
 
-export const images = ['pretty-lights-nyc.jpg','beetroots-edc.jpg','deadmau5.jpg',
-                'pretty-lights-nyc-2.jpg', 'Gramatik.jpg'
+export const images = ['beetroots-edc.jpg', 
+                        'deadmau5.jpg', 
+                        'armin.jpg',
+                        'pretty-lights-nyc-2.jpg',
+                        'gramatik.jpg'
                 ];
 
 export class Carousel extends React.Component {

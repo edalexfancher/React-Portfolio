@@ -1,27 +1,37 @@
 import React from 'react';
 import Coverflow from 'react-coverflow';
 import {StyleRoot} from 'radium';
-import './TechGrid.css';
+import './TechCoverflow.css';
 
-export class TechGrid extends React.Component {
+export class TechCoverflow extends React.Component {
+  next(event) {
+    event.preventDefault();
+    this.refs.coverflow.next();
+  }
+
+  prev(event) {
+    event.preventDefault();
+    this.refs.coverflow.previous();
+  }
+
   render() {
     return(
       <div className="Coverflow">
         <StyleRoot>
         <Coverflow
-        active={0}
         displayQuantityOfSide={2}
         navigation={true}
         enableHeading={true}
-        clickable={true}
-        enableScroll={true}
+        clickable={false}
+        enableScroll={false}
+        infiniteScroll={true}
         media={{
       '@media (max-width: 1100px)': {
-        width: '300px',
-        height: '400px'
+        width: '500px',
+        height: '300px'
       },
       '@media (max-width: 600px)': {
-        width: '400px',
+        width: '300px',
         height: '250px'
       }
     }}>

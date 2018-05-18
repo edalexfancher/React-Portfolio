@@ -39,7 +39,7 @@ input {
   border: none;
   background: black;
   color: white;
-  border-radius: 0.6rem;
+  border-radius: 0.2rem;
 }
 
 ::placeholder {
@@ -60,13 +60,13 @@ textarea {
   margin-top: 1rem;
   resize: none;
   margin-bottom: 1rem;
-  border-radius: 0.6rem;
+  border-radius: 0.2rem;
 }
 
 button {
   z-index: 9999;
   border: none;
-  background-color: black;
+  background-color: grey;
   color: white;
   font-weight: 350;
   font-size: 1.2rem;
@@ -74,12 +74,11 @@ button {
   width: 20%;
   margin: 0 auto;
   display: block;
-  border-radius: 0.6rem;
+  border: 1px solid grey;
 }
 
 button:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
 }
 
 button:hover {
@@ -99,7 +98,7 @@ form {
     width: 100%;
     left: 0;
     right: 0;
-    top: 9rem;
+    top: 10rem;
     bottom: 0;
   }
 
@@ -108,5 +107,6 @@ form {
     width: 90%;
     padding: 0;
     margin-top: 0;
+    margin-bottom: 1rem;
   }
 }

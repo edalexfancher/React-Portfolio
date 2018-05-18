@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bio.css';
 import { Preview } from './Preview';
-import { TechGrid } from './TechGrid';
+import { TechCoverflow } from './TechCoverflow';
 import { PortfolioList } from './PortfolioList';
 
 
@@ -47,7 +47,7 @@ export class Bio extends React.Component {
                 <br/><br/><br/><br/><br/>
               </div>
             </div>    
-            <TechGrid />
+            <TechCoverflow />
             <div className="Bio" id="Bio-Paragraph">
               <h3>Bio</h3>
               <div id="paragraph"><p>I am a coder who likes both programming servers and designing modern web interfaces.</p><p>

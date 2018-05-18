@@ -77,12 +77,11 @@ export class App extends Component {
         <div className="carousel-wrap">
           <Carousel current={this.state.current} />
         </div>
-        <footer>
+        {(this.state.bioClicked || this.state.twitterClicked || this.state.messageClicked) ? null :
           <Footer handleBioClick={this.handleBioClick.bind(this)} 
-        handleTwitterClick={this.handleTwitterClick.bind(this)}
-        handleMessageClick={this.handleMessageClick.bind(this)}
-        unclickAll={this.unclickAll.bind(this)}/>
-        </footer>
+          handleTwitterClick={this.handleTwitterClick.bind(this)}
+          handleMessageClick={this.handleMessageClick.bind(this)}
+          unclickAll={this.unclickAll.bind(this)}/> }
       </div>
     )
   }
