@@ -55,11 +55,9 @@ export class Bio extends React.Component {
               <p>Some of my favorite Internet inventions include: <strong>Twitter</strong>, <strong>React JS</strong>, and <strong>Ruby on Rails</strong>.
               I enjoy high-level design, and can pick up any language or framework.</p></div>
             </div>
-              
-            <div className="Bio" id="Portfolio" onClick={this.handlePortfolioClick.bind(this)}>
-              <h3 onClick={this.handlePortfolioClick.bind(this)}>Current Projects & Portfolio</h3>
+            <div className="Bio intro">
+              <h3>I am a Full-Stack Developer in Miami, Florida</h3>
             </div>
-            {this.state.portfolioClicked ? <PortfolioList current={this.state.preview} handlePreviewClick={this.handlePreviewClick.bind(this)} /> : null}
         </div>
       </div>
       )
